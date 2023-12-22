@@ -5,6 +5,9 @@ body {
     font-family: "Acme";
     background: #5a3357;
   }
+  audio{
+   padding: 0 0 10px 20px ; 
+  }
   #abcd{
     display: flex;
 
@@ -28,7 +31,7 @@ body {
     margin: 20px 0;
     width: 300px;
     height: 400px;
-    background: linear-gradient(#fef7f7, #9198e5);
+    background: linear-gradient(#fef7f7, #000000);
     transform-style: preserve-3d;
     transform: perspective(2000px);
     transition: 1s;
